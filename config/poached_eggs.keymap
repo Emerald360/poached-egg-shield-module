@@ -17,10 +17,10 @@
 
         lower_layer {
             bindings = <
-&kp ESC    &kp N1    &kp N2  &kp N3    &kp N4      &kp N5                      &kp N6     &kp N7    &kp N8     &kp N9          &kp N0           &kp GRAVE
-&kp GRAVE  &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PRCNT                   &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR        &kp RPAR         &kp TILDE
-&kp RET    &none     &none   &none     &none       &none                       &none      &none     &none      &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PIPE
-&none      &none     &none   &trans    &trans      &trans     &kp DEL  &trans  &mo 3      &trans    &trans     &none           &none            &none
+&kp ESC    &kp N1    &kp N2  &kp N3    &kp N4      &kp N5                      &trans                &kp MINUS              &kp SLASH           &kp N7        &kp N8        &kp N9
+&kp GRAVE  &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PRCNT                   &kp CARET             &kp PLUS               &kp ASTERISK        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6
+&kp RET    &none     &none   &none     &none       &none                       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp KP_EQUAL_AS400  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3
+&none      &none     &none   &trans    &trans      &trans     &kp DEL  &trans  &mo 3                 &trans                 &trans              &kp PERIOD    &kp NUMBER_0  &kp EQUAL
             >;
         };
 
